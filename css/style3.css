@@ -1,0 +1,110 @@
+nav {
+	background-color: #f1f1f1;
+	overflow:hidden;
+}
+nav a{
+	color:black;
+	text-decoration: none;
+	display:block;
+	text-align: center;
+	padding : 14px 20px;
+	float:left;
+}
+nav a:hover{
+	color :#95f5a1;
+	background-color: white;
+
+}
+
+#text_menu {
+	background-color: #95f5a1;
+	padding: 80px;
+	text-align: center;
+	margin: 0px;
+}
+.left_side {
+	float:left;
+}
+.right_side {
+	float:right;
+	padding:14px 20px;
+}
+.flex_container {
+	display:flex;
+	flex-wrap: nowrap;
+
+}
+.flex_left {
+	flex:30%;
+	background-color: #e1f2e3;
+	padding :10px;
+}
+.flex_right {
+	flex:70%;
+	background-color: #c3dec5;
+}
+footer {
+	text-align: center;
+	background-color: #95f5a1;
+	padding: 8px;
+}
+footer a {
+	color :black;
+
+}
+table {
+	border-style: solid;
+}
+
+/* Styling the table */
+table {
+	border-collapse: collapse;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #95f5a1;
+  color: black;
+}
+.pic {
+	height: 300px;
+
+}
+
+
+#memories {
+	text-align: center;
+	font-size: 20px;
+}
+ 
+#memories:hover {
+	background-color: #95f5a1;
+	
+	color:white;
+}
+@media (max-width: 800px) {
+	.left_side {
+		flex:100%;
+	}
+	.right_side {
+		flex:100px;
+	}
+	.flex_container {
+		flex-wrap: wrap;
+	}
+}
